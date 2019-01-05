@@ -1,0 +1,1 @@
+docker run --name grayci -v /mnt/vhost/grayci.kingkangyu.com:/home/wwwroot/default -v /mnt/nginx/dockerconf/grayci.kingkangyu.com:/usr/local/nginx/conf/vhost:ro -v /mnt/wwwlogs:/home/wwwlogs -p 8888:80 -p 33060:3306 -d -it  1db7f0f4d036
